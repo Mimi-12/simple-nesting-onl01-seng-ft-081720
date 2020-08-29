@@ -25,8 +25,8 @@ def dennis_ritchies_language
 	programmer_hash =
         {:grace_hopper => {:known_for => "COBOL",:languages => ["COBOL", "FORTRAN"]},
         :alan_kay => {:known_for => "Object Orientation",:languages => ["Smalltalk", "LISP"]},
-        :dennis_ritchie => {:known_for => "Unix",:languages => ["C"],
-        :yukihiro_matsumoto=>{:known_for=>"Ruby",:languages=> ["LISP", "C"]
+        :dennis_ritchie => {:known_for => "Unix",:languages => "C"
+        ##:yukihiro_matsumoto=>{:known_for=>"Ruby",:languages=> ["LISP", "C"]
         }
      }
         programmer_hash[:dennis_ritchie][:languages]="C"
@@ -39,7 +39,8 @@ def adding_matz
   # :languages => ["LISP", "C"]
 # }
 	programmer_hash =
- 		{:grace_hopper => {:known_for => "COBOL",:languages => ["COBOL", "FORTRAN"]},
+ 		{:yukihiro_matsumoto=>{:known_for=>"Ruby",:languages=> ["LISP", "C"],
+     :grace_hopper => {:known_for => "COBOL",:languages => ["COBOL", "FORTRAN"]},
      :alan_kay => {:known_for => "Object Orientation",:languages => ["Smalltalk", "LISP"]},
      :dennis_ritchie => {:known_for => "Unix",:languages => ["C"]
         }
