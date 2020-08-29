@@ -55,8 +55,8 @@ def changing_alan
      :alan_kay => {:known_for => "Object Orientation",:languages => ["Smalltalk", "LISP"]},
      :dennis_ritchie => {:known_for => "Unix",:languages => ["C"]}
      }
-    programmer_hash[:alan_kay][:known_for]<<"GUI"
-    puts programmer_hash
+    programmer_hash[:alan_kay][:known_for]="GUI"
+   programmer_hash
      #alans_new_info = "GUI"
 end
 
